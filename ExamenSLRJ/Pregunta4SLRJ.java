@@ -3,19 +3,24 @@ package ExamenSLRJ;
 import java.util.Scanner;
 
 public class Pregunta4SLRJ {
-static Scanner lt=new Scanner(System.in);
-public static void main(String[] args) {
-    //Declarar variables
-    int vacuna;
-    int sexo;
-    Double edad;
-    //Datos de entrada
-    System.out.println("tipo de vacuna:");
-    vacuna=A,B,C;
-    System.out.print("por edades:");
-    
- {
-    
- }
-}
+
+    public static void main(String[] args) {
+        double año;
+        String mensaje, genero;
+        Scanner lt=new Scanner(System.in);
+        System.out.println("ingrese la cantidad de años: ");
+        año=lt.nextDouble();
+        System.out.println("ingrese el genero (masculino o femenino): ");
+        genero=lt.next();
+        if (año>=70) {
+            mensaje=("su vauna es de tipo C");
+        }else if (año>=16 && año<=69 && genero=="masculino") {
+            mensaje=("su vacuna es de tipo A");
+        }else if (año>=16 && año<=69 && genero=="femenino") {
+            mensaje=("su vacuna es de tipo B");
+        }else{
+            mensaje=("vacuna de tipo A");
+        }
+        System.out.println(mensaje);
+    }
 }

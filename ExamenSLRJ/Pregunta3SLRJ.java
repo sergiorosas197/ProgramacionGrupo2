@@ -2,55 +2,31 @@ package ExamenSLRJ;
 
 import java.util.Scanner;
 
-import javax.swing.JSpinner.NumberEditor;
-
 public class Pregunta3SLRJ {
-    static Scanner lt=new Scanner(System.in);
     public static void main(String[] args) {
-        //Declarar variables
-        int numero,resultado;
-        double suma,resta,multiplicacion,division,potencia,raizcuadrada,modulo2;
-        //Datos de entrada
-        System.out.println("Se suman los numeros:"+);
-        resultado=lt.nextInt();
-        System.out.println("Se restan los numeros:"-);
-        resultado=lt.nextInt();
-        System.out.println("Se multiplican los numeros:");
-        resultado=lt.nextInt();
-        System.out.println("Se dividen los numeros:");
-        resultado=lt.nextInt();
-        System.out.println("Se potencia el numero:");
-        resultado=lt.nextInt();
-        System.out.println("Se saca raiz cuadrada del numero:");
-        resultado=lt.nextInt();
-        System.out.println("Se saca el numero en modulo de 2:");
-        resultado=lt.nextInt();
-        //Proceso
-        if (numero=1 && numero=3) {
-            suma=numero+numero;
-        if (numero) {
-            resta=numero-numero
-        if (numero) {
-            multiplicacion=numero*numero;
-        if (numero) {
-            division=numero/numero;
-        if (numero) {
-            potencia=numeroalcuadrado;
-        if (numero) {
-            modulo=numero&%de2;
-            
+        double num1, num2, total,signo; 
+        Scanner lt=new Scanner(System.in);
+        System.out.println("ingrese el primer numero");
+        num1=lt.nextDouble();
+        System.out.println("ingrese el segundo numero");
+        num2=lt.nextDouble();
+        System.out.println("1 = (+=suma) \n2 = (-=resta) \n3 = (*=multiplicacion) \n4 = (/=division) \n5 = (R=raiz) \n6 = (^=potencia) \n7 = (%=modulo de 2) \ningrese el signo: ");
+        signo=lt.nextDouble();
+        if (signo==1) {
+            total=num1+num2;
+        }else if (signo==2) {
+            total=num1-num2;
+        }else if (signo==3) {
+            total=num1*num2;
+        }else if (signo==4) {
+            total=num1/num2;
+        }else if (signo==5) {
+            total=Math.pow(num1,0.5);   
+        }else if (signo==6) {
+            total=Math.pow(num1,num2);
+        }else{
+            total=num1%num2;
         }
-            
-        }
-            
-        }) {
-            
-        }
-            
-        }
-        }
-        }
-
+        System.out.println("el resusltado es: "+total);
     }
-    
 }
