@@ -1,9 +1,7 @@
 package ExamenSLRJ;
 
-import java.util.Scanner;
-
 public class Pregunta3SLRJ {
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         double num1, num2, total,signo; 
         Scanner lt=new Scanner(System.in);
         System.out.println("ingrese el primer numero");
@@ -29,4 +27,5 @@ public class Pregunta3SLRJ {
         }
         System.out.println("el resusltado es: "+total);
     }
+}
 }

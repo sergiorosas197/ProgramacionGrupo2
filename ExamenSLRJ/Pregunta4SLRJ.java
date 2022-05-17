@@ -1,5 +1,3 @@
-package ExamenSLRJ;
-
 import java.util.Scanner;
 
 public class Pregunta4SLRJ {
