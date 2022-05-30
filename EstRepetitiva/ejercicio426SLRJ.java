@@ -11,8 +11,8 @@ public class ejercicio426SLRJ {
 
         System.out.println("  n   |   n²   |   n³");
         System.out.println("Introduce el numero a saber: ");
-        for (int i = numeroIntroducido; i < numeroIntroducido + 5; i++)  {
-            System.out.printf("%5d |%8d |%9d\n", i, i * i,i * i * i);
+        for (int i = numeroIntroducido; i < numeroIntroducido + 1; i++)  {
+            System.out.printf("%1d |%3d |%4d\n", i, i * i,i * i * i);
         }
         System.out.println("mostrar en tres columnas , el cuadrado y el cubo del los numeros: ");
     }
