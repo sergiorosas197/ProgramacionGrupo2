@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ClaseGeneral {
 
     static Scanner leerT=new Scanner(System.in);
-    static Aritmetica obj=new Aritmetica();
+    static aritmetica obj=new aritmetica();
     static Persona objP=new Persona();
 
 

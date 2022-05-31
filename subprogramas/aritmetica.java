@@ -3,7 +3,7 @@ package subprogramas;
 /**
  * Aritmetica
  */
-public class Aritmetica {
+public class aritmetica {
 
     public int sumar(int a, int b) {
         return a+b;

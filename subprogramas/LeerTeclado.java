@@ -7,7 +7,7 @@ public class LeerTeclado {
     }
 
     public int print(String mensaje, String valor){
-        return "0";
+        return 0;
 
     }
     public int print(String mensaje, float valor){
@@ -18,7 +18,7 @@ public class LeerTeclado {
         return 0;    
     }  
 
-    public int print(String mensaje, boolean valor){
+    public boolean print(String mensaje, boolean valor){
         return true;    
     }   
 }
